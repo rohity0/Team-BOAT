@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+#firstdiv>img {
+    width: 100%;
+    /* background-color: blue; */
+}
+#secdiv {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    /* background-color: black; */
+}
+#secdiv>div {
+    background-color: rgb(222, 241, 245);
+    width: 24%;
+    /* height: 250px; */
+    border-radius: 20px;
+    text-align: center;
+    /* font-weight:bold; */
+    cursor: pointer;
+}
+#secdiv>div>img {
+    width: 100%;
+}
+#dynamic>div{    
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    border-radius: 20px;
+   
+    /* background-color: white; */
+}
+.card{
+    width: 24%;
+    background-color: rgb(228, 228, 250);
+    border-radius: 20px;
+}
+.card>img{
+    width: 100%;
+}
+.card>div{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#sumbox {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#sumbox>p {
+    margin-top: 10px;
+}
+
+button {
+    width: 95%;
+    margin: auto;
+    background-color: red;
+    border: none;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 9px;
+    /* margin: auto; */
+}
+
+#trendingwirelessbtn {
+    display: flex;
+    width: 30%;
+    margin: auto;
+    /* background-color: blue; */
+    margin-top: 40px;
+}
+
+#trendingwirelessbtn>button {
+    background-color: black;
+    /* color: red; */
+    /* border-bottom: 2px solid red; */
+    border-radius: 0px;
+    color: rgb(250, 231, 231);
+    font-size: 20px;
+    width: 45%;
+    
+   
+    
+
+}
+
+#trendingwireless {
+    height: 400px;
+}
+
+#button{
+    display: flex;
+    width: 30%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#button>button{
+    background-color: black;
+    color: white;
+}
+
+#blogsec{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+#blogsec>div{
+    width: 30%;
+}
+
+#blogsec>div>img{
+    width: 100%;
+}
+#blogsec+button{
+    width: 15%;
+    font-size: 20px;
+    height: 60px;
+   color: white;
+   display: block;
+
+   margin-top: 40px;
+   margin-bottom: 40px;
+   /* padding-top: 40px;
+   padding-bottom: 40px; */
+}
