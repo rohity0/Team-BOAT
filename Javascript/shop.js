@@ -149,6 +149,7 @@ function add(ele){
 bag.push(ele);
 
 localStorage.setItem("cart",JSON.stringify(bag))
+window.location.reload();
 
 
 }
