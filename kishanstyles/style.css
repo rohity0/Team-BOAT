@@ -1,13 +1,13 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px; 
-}
+} */
 
 body{
 
     box-sizing: border-box;
-    background: black;
-    color: white;
+    /* background: black;
+    color: white; */
 }
 
 #ist_navbar{
@@ -245,6 +245,8 @@ text-decoration: none;
     margin-bottom: 30px;
     font-size: 15px;
     width: 30px;
+    position: relative;
+    top: 15px
 
 }.header__cart{
     display: flex;

@@ -1,3 +1,8 @@
+import {navbar1} from "../component/navbar.js";
+let nav=  navbar1()
+// console.log(nav)
+document.getElementById("navbar").innerHTML=nav;
+
 var form=document.querySelector("form");
     var userDatas=JSON.parse(localStorage.getItem("userDatas"));
 
@@ -19,4 +24,14 @@ function login(){
     }
     else alert("try agian")
 }
-  
+import {footer} from "../component/footer.js";
+let foot = document.getElementById('footer')
+foot.innerHTML=footer()
+
+
+
+
+  document.getElementById('btn-back-to-top').addEventListener("click",func)
+  function func(){
+    window.location.reload()
+  }

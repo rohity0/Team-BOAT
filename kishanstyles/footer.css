@@ -72,11 +72,11 @@ border: 1px solid gray;
 transition: all 0.2s linear;
 background-color: black;
 }
-button{
+.button{
 background-color: rgb(255, 0, 0);
 width: 200px;
 color: white;
-padding: 16px;
+padding:15px;
 border-radius: 8px;
 position: absolute;
 display: grid;
