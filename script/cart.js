@@ -1,5 +1,12 @@
+import { navbar1 } from "../component/navbar.js";
+let nav = navbar1();
+// console.log(nav)
+document.getElementById("navbar").innerHTML = nav;
+
 let data = JSON.parse(localStorage.getItem("cart"));
-console.log(data);
+// console.log(data);
+let counter = document.querySelector(".header__cart");
+counter.innerText = data.length;
 let item = document.querySelector("#items");
 let pay = document.querySelector("#gtotal");
 let gsum = 0;
@@ -80,6 +87,8 @@ function quantityI(int, price, sum) {
     int.value = count;
     let x = count * price;
     sum.innerText = "Rs " + x;
+    gsum += x;
+    pay.innerText = "RS. " + gsum;
   }
 }
 
@@ -91,6 +100,8 @@ function quantityD(int, price, sum) {
     int.value = count;
     let x = count * price;
     sum.innerText = "Rs " + x;
+    gsum -= x;
+    pay.innerText = "RS. " + gsum;
   }
 }
 
@@ -99,3 +110,7 @@ function remove(e, ind) {
   localStorage.setItem("cart", JSON.stringify(data));
   window.location.reload();
 }
+
+import { footer } from "../component/footer.js";
+let foot = document.getElementById("footer");
+foot.innerHTML = footer();

@@ -1,5 +1,5 @@
-function navbar1(){
-    return ` <div id="ist_navbar">
+function navbar1() {
+  return ` <div id="ist_navbar">
     <h3>Listen to the sound you deserve with Stone 135. Bag it at ₹799! 🤩</h3>
 </div>
 
@@ -155,7 +155,7 @@ function navbar1(){
                
           </div>
           <div id="icon4">
-            <a href="">
+            <a href="./Cart.html">
                <img src="https://cdn-user-icons.flaticon.com/73376/73376790/1655285156195.svg?token=exp=1655286058~hmac=f201a40ac7b90441971522e19de69d23" alt="">
                 <cart-count class="header__cart">0</cart-count>
             </a>
@@ -165,9 +165,7 @@ function navbar1(){
     </div>
 
 
-</div>`
+</div>`;
 }
 
-
-
-export {navbar1}
+export { navbar1 };

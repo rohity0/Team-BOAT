@@ -1,3 +1,8 @@
+import { navbar1 } from "../component/navbar.js";
+let nav = navbar1();
+// console.log(nav)
+document.getElementById("navbar").innerHTML = nav;
+
 let data = [
   {
     id: 1,
@@ -149,6 +154,7 @@ let show = (data) => {
     let btn = document.createElement("button");
     btn.innerText = "Add To Cart";
     btn.style.margin = "auto";
+    btn.setAttribute("class", "add");
     btn.addEventListener("click", () => {
       addTocart(e);
     });
@@ -170,6 +176,8 @@ function addTocart(ele) {
   if (x) {
     arr.push(ele);
     localStorage.setItem("cart", JSON.stringify(arr));
+    let counter = document.querySelector(".header__cart");
+    counter.innerText = arr.length;
     swal("Good job!", "Product Added To Cart!", "success");
   } else {
     swal("Failed!", "Item Already Present To Cart!", "info");
@@ -184,3 +192,7 @@ function checker(a) {
   }
   return true;
 }
+
+import { footer } from "../component/footer.js";
+let foot = document.getElementById("footer");
+foot.innerHTML = footer();
