@@ -1,3 +1,8 @@
+import {navbar1} from "../component/navbar.js"
+    let nav=  navbar1()
+    // console.log(nav)
+document.getElementById("navbar").innerHTML=nav;
+
 let arr = [{
     image: "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main2_b2052cb3-100a-45d6-9170-1512deb9138d_400x.png?v=1631167046",
     pname: "boAt Airdopes 131 - Wireless Earbuds",
@@ -153,3 +158,12 @@ window.location.reload();
 
 
 }
+
+
+import {footer} from '../component/footer.js';
+let foot = document.getElementById('footer')
+foot.innerHTML=footer()
+document.getElementById('btn-back-to-top').addEventListener("click",func)
+  function func(){
+    window.location.reload()
+  }

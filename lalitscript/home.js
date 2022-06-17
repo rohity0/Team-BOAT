@@ -1,3 +1,9 @@
+import {navbar1} from "../component/navbar.js"
+let nav=  navbar1()
+// console.log(nav)
+document.getElementById("navbar").innerHTML=nav;
+
+
 let img = document.createElement("img");
     img.src = "./image/2.webp"
     img.style.width = "100%"
@@ -138,6 +144,18 @@ let img = document.createElement("img");
         localStorage.setItem("cart",JSON.stringify(store))
         console.log(arr[index])
     }
+
+    import {footer} from '../component/footer.js';
+let foot = document.getElementById('footer')
+foot.innerHTML=footer()
+
+
+
+
+  document.getElementById('btn-back-to-top').addEventListener("click",func)
+  function func(){
+    window.location.reload()
+  }
 
 
 

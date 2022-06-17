@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px; 
 }
@@ -8,7 +8,7 @@ body{
     box-sizing: border-box;
     background: black;
     color: white;
-}
+} */
 
 #ist_navbar{
     width: 100%;
@@ -66,6 +66,7 @@ body{
 #sec_div{
 
     text-align: center;
+    width:100%;
  
 }
 #sec_div ul{
@@ -73,6 +74,7 @@ body{
     gap: 40px;
     list-style: none;
     color: white;
+    margin-left: -20px;
 
  }
 #sec_div ul li{
@@ -134,9 +136,6 @@ margin-left: -490px;
     width:250px;
     height: auto;
 }
-
-
-
 #shop_products{
     display: none;
    
@@ -157,8 +156,12 @@ margin-top: 22px;
 width: 10px;
 padding: 10px;
 }
+#third_div{
+margin-right:25px;
+margin-top:20px;
+}
 
-   
+
 
 
 

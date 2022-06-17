@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/Team-BOAT/CSS/boathead.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/boathead.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
 <body>
+    <div id="navbar"></div>
+
 <div id="bg">
     <div id="kartik">
     <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/boatheads-banner.png?v=1590125155"/>
@@ -45,7 +50,28 @@
     <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Turnig_sport_into_strength.png?v=1634905806" alt="">
     </div>
 </div>
+
+<footer id="footer"></footer>
     </body>
     </html>
+
+    <script type="module">
+
+import {navbar1} from "../component/navbar.js"
+    let nav=  navbar1()
+    // console.log(nav)
+    document.getElementById("navbar").innerHTML=nav;
+</script>
+
+<script type="module">
+import {footer} from '../component/footer.js';
+let foot = document.getElementById('footer')
+foot.innerHTML=footer()
+document.getElementById('btn-back-to-top').addEventListener("click",func)
+  function func(){
+  window.location.reload()
+  }
+</script>
+    
 
     
