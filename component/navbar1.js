@@ -9,7 +9,7 @@ function navbar1() {
     <div id="ist_div">
 
         <div id="ist_img_div">
-        <a href="">
+        <a href="./index.html">
         <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Boat-Logo_200x_200x_f9c79bf9-9c9a-477d-ab6a-7c889a1f2f70_170x.png?v=1646731229" alt="boAt">
         </a>
             
@@ -28,21 +28,21 @@ function navbar1() {
                     <ul style="display:grid; grid-template-columns: repeat(4,1fr); row-gap: 10px; align-items: center;">
                         
                         <li>
-                            <a href=" ">
+                            <a href="./shop.html">
                       
                            <img id="image" alt="Wireless Earbuds" src="//cdn.shopify.com/s/files/1/0057/8938/4802/collections/dropdown-TWS_540x.png?v=1612338251" srcset="//cdn.shopify.com/s/files/1/0057/8938/4802/collections/dropdown-TWS_240x.png?v=1612338251 240w, //cdn.shopify.com/s/files/1/0057/8938/4802/collections/dropdown-TWS_480x.png?v=1612338251 480w, //cdn.shopify.com/s/files/1/0057/8938/4802/collections/dropdown-TWS_540x.png?v=1612338251 540w">
                         </a>
                         </li>
 
                         <li>
-                            <a href=" ">
+                            <a href="./shop.html">
                      
                                 <img id="image"  alt="Wireless Headphones" src="//cdn.shopify.com/s/files/1/0057/8938/4802/collections/Rectangle271_540x.png?v=1612338387" srcset="//cdn.shopify.com/s/files/1/0057/8938/4802/collections/Rectangle271_240x.png?v=1612338387 240w, //cdn.shopify.com/s/files/1/0057/8938/4802/collections/Rectangle271_480x.png?v=1612338387 480w, //cdn.shopify.com/s/files/1/0057/8938/4802/collections/Rectangle271_540x.png?v=1612338387 540w">
                          </a>
                         </li>
 
                      <li>
-                            <a href=" ">
+                            <a href="./shop.html">
                           
                                 <img id="image"  alt="Smart Watches" src="//cdn.shopify.com/s/files/1/0057/8938/4802/collections/pro_gear_1196x.jpg?v=1648546494" srcset="//cdn.shopify.com/s/files/1/0057/8938/4802/collections/pro_gear_240x.jpg?v=1648546494 240w, //cdn.shopify.com/s/files/1/0057/8938/4802/collections/pro_gear_480x.jpg?v=1648546494 480w, //cdn.shopify.com/s/files/1/0057/8938/4802/collections/pro_gear_720x.jpg?v=1648546494 720w, //cdn.shopify.com/s/files/1/0057/8938/4802/collections/pro_gear_960x.jpg?v=1648546494 960w, //cdn.shopify.com/s/files/1/0057/8938/4802/collections/pro_gear_1196x.jpg?v=1648546494 1196w"> 
                             </a>
@@ -116,11 +116,11 @@ function navbar1() {
                   <i class='fa fa-angle-down' style='color: white'></i></a>
             <div id="shop_products"  style="text-align:left ;">
                 <ul style="display:grid; gap: 1px; margin-top: 5px;">
-                    <li><a href="">Daily Deals</a></li>
+                    <li><a href="daily.html">Daily Deals</a></li>
                     <li><a href="">Gifting</a></li>
                     <li><a href="">Do What Floats Your boAt</a></li>
                     <li><a href="">Meet the booAtheads</a></li>
-                    <li><a href="">Corporate Orders</a></li>
+                    <li><a href="./corporate.html">Corporate Orders</a></li>
                     <li><a href="">Earn Rs. 100</a></li>
                     <li><a href="">Careers</a></li>
                 </ul>

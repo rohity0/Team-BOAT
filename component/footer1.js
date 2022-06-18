@@ -1,5 +1,5 @@
-function footer(){
-    return `    <div id="footer_div1">
+function footer() {
+  return `    <div id="footer_div1">
 
     <div id="footer_logo">
 
@@ -124,27 +124,19 @@ function footer(){
     <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/google-play.png?v=1608620293" alt="">
   </a>
   </div>
-
-
-<div>
+  
+  <div>
   <a href="https://apps.apple.com/us/app/id1521646593">
   <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/app-store.png?v=1608620293" alt="">
 </a>
 </div>
  </div> 
- 
-
-
-
-</div>
-
-
-
-
+ </div>
 <div id="footer_div3">
 <p>© 2022 Imagine Marketing Limited. All Rights Reserved.</p>
 </div>
 
-`
+`;
 }
-export{footer}
+
+export { footer };

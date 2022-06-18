@@ -6,8 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./style/pay.css" />
+    <!--  -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--  -->
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
+    <div id="navbar"></div>
     <div id="main-flex-container">
       <div>
         <div id="sign-in-div"></div>
@@ -149,5 +162,18 @@
         </div>
       </div>
     </div>
+    <footer id="footer"></footer>
   </body>
 </html>
+
+<script type="module">
+  import { navbar1 } from "../component/navbar1.js";
+  let nav = navbar1();
+  // console.log(nav)
+  document.getElementById("navbar").innerHTML = nav;
+
+  //
+  import { footer } from "../component/footer1.js";
+  let foot = document.getElementById("footer");
+  foot.innerHTML = footer();
+</script>

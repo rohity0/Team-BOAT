@@ -1,0 +1,77 @@
+/* shopcss */
+body{
+    background-color:rgb(44, 29, 29);
+   
+    width:100%;
+    margin:auto;
+}
+#earbud{
+    width:100%;
+  
+   
+}
+#earbud>img{
+    width:100%;
+  
+}
+
+#earbud1{
+    text-align: center;
+    display:flex;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:25px;
+    background-color: aliceblue;
+}
+#earbud1>div{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    height:550px;
+    margin-top: 15px;
+}
+#earbud1>div>img{
+    width:100%;
+}
+
+#sumbox{
+    width:100%;
+    margin:auto;
+    margin-top: -30px;
+    font-size: 16px;
+    background-color: rgb(218, 228, 237);
+    height:200px;
+}
+#sumbox>h2{
+    font-weight:bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    color:red;
+}
+#sumbox>strike{
+    color:red;
+}
+#sumbox>img{
+  width:100%;
+}
+
+#sumbox>button{
+
+margin-top: 20px;
+box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+border:none;    
+border-radius: 6px;
+font-weight: bold;
+margin-right:20px;
+background-color: red;
+width:200px;
+height:35px;
+}
+
+button:hover{
+background-color: aqua;
+}
+
+#wireless{
+    font-size: 50px;
+    color: bisque;
+    font-weight: bold;
+}

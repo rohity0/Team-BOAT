@@ -1,4 +1,4 @@
-import { navbar1 } from "../component/navbar.js";
+import { navbar1 } from "../component/navbar1.js";
 let nav = navbar1();
 // console.log(nav)
 document.getElementById("navbar").innerHTML = nav;
@@ -111,6 +111,6 @@ function remove(e, ind) {
   window.location.reload();
 }
 
-import { footer } from "../component/footer.js";
+import { footer } from "../component/footer1.js";
 let foot = document.getElementById("footer");
 foot.innerHTML = footer();

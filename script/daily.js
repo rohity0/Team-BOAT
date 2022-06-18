@@ -1,4 +1,4 @@
-import { navbar1 } from "../component/navbar.js";
+import { navbar1 } from "../component/navbar1.js";
 let nav = navbar1();
 // console.log(nav)
 document.getElementById("navbar").innerHTML = nav;
@@ -169,6 +169,7 @@ let show = (data) => {
 show(data);
 
 let arr = JSON.parse(localStorage.getItem("cart")) || [];
+
 function addTocart(ele) {
   let id = ele.id;
   let x = checker(id);
@@ -193,6 +194,6 @@ function checker(a) {
   return true;
 }
 
-import { footer } from "../component/footer.js";
+import { footer } from "../component/footer1.js";
 let foot = document.getElementById("footer");
 foot.innerHTML = footer();

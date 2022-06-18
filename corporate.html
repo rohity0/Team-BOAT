@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/footer.css" />
+    <link rel="stylesheet" href="./style/corporate.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <div id="whole">
+      <div id="boat">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7xfnwP7E0VdGocD_bNNPfcqV8a_EkRhrZPw&usqp=CAU"
+          alt=""
+        />
+      </div>
+      <div id="form">
+        <div id="fill">
+          <p>Contact Us</p>
+          <label>Full Name*</label><br />
+          <input type="text" value="" /><br />
+          <label>Contact Number*</label><br />
+          <input type="text" value="" /><br />
+          <label>Email*</label><br />
+          <input type="text" value="" /><br />
+          <label>Company Name*</label><br />
+          <input type="text" value="" /><br />
+          <label>Quantity*</label><br />
+          <input type="text" value="" /><br />
+          <label>Requirements*</label><br />
+          <input type="text" value="" /><br />
+          <button>Sumbmit</button>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer"></footer>
+  </body>
+</html>
+
+<script type="module">
+  import { navbar1 } from "../component/navbar1.js";
+  let nav = navbar1();
+  // console.log(nav)
+  document.getElementById("navbar").innerHTML = nav;
+</script>
+<script type="module">
+  import { footer } from "../component/footer1.js";
+  let foot = document.getElementById("footer");
+  foot.innerHTML = footer();
+  document.getElementById("btn-back-to-top").addEventListener("click", func);
+  function func() {
+    window.location.reload();
+  }
+</script>

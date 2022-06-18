@@ -1,0 +1,43 @@
+#whole {
+  width: 1500px;
+  display: flex;
+}
+#boat {
+  width: 60%;
+}
+#boat > img {
+  width: 100%;
+  height: 700px;
+}
+#form {
+  width: 40%;
+  margin-right: -300px;
+  border: 1px solid black;
+  background-color: blanchedalmond;
+  /* position: relative;
+  z-index: 2; */
+}
+#form > #fill {
+  margin-left: 60px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+#fill > input {
+  padding: 10px;
+  width: 450px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+button {
+  padding: 15px;
+  width: 475px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: red;
+  border: 0.5px solid black;
+  font-size: 20px;
+}
+p {
+  font-size: 40px;
+  color: red;
+}
