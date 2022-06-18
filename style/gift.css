@@ -1,0 +1,189 @@
+body{
+    background-color:rgb(246, 241, 241) ;
+}
+body h3{
+    color: #a29d9d; 
+}
+#error1{
+/* border: 2px solid rgb(246, 81, 81); */
+margin-top: 40px;
+display: flex;
+width: 100%;
+height: 600px;
+}
+#error2{
+   /* border: 2px solid green; */
+   height: 100%;
+   width: 100px; 
+}
+#error3{
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 500px;
+    background-color: rgb(219, 211, 211);
+}
+#error4{
+    width:500px;
+    
+}
+#error5{
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 450px;
+    /* margin: auto; */
+}
+    #gf{
+        /* border: 2px solid black; */
+    height: 300px;
+    width: 450px; 
+    /* padding-left: 20px; */
+    margin-left: 20px;
+}
+/* hr{
+    sty
+} */
+#error5 h1{
+    padding-left: 10px;
+} 
+ span{
+    padding-left: 10px;
+}
+#error5 h3{
+    color: black;
+    padding-left: 20px;
+}
+#error8{
+    border: 2px solid black;
+    height: 100%;
+    width: 400px;
+}
+.checked {
+color: rgb(240, 53, 53);
+}
+#error7{
+display: flex;
+height: 100px;
+width: 50%;
+/* border: 2px solid greenyellow; */
+background-color:rgb(246, 241, 241) ;
+color: rgb(246, 241, 241);
+}
+#error7 img{
+background-color:rgb(246, 241, 241) ;
+}
+#env{
+/* display: flex; */
+height: 50px;
+margin-left: 20px;
+width: 25000px;
+}
+#error9{
+/* display: flex; */
+height: 40px;
+width: 100%;
+/* border: 2px solid greenyellow; */
+background-color: rgb(219, 211, 211);
+/* border-radius: 20px; */
+}
+button{
+display: block;
+height: 40px;
+width: 350px;
+margin-left: 30px;
+margin-top: 10px;
+border-radius: 10px;
+border: none;
+}
+#error8{
+margin-top: 75px;
+height: 300px;
+width: 400px;
+border: 2px solid gray;
+background-color: rgb(248, 242, 242);
+border-radius: 20px;
+/* border: 2px solid yellowgreen; */
+}
+#bar21{
+height: 20px;
+width: 400px;
+border-radius: 20px;
+margin-top: 30px;
+border: 2px dashed gray;
+}
+h3{
+font-family: Montserrat;
+/* color: #a29d9d; */
+color: black;
+}
+h1{
+font-family: Montserrat;
+color: #111111;
+font-weight: bolder;
+}
+#error8  h1{
+color: red;
+padding-left: 20px;
+}
+#error8  h3{
+color: #a29d9d;
+padding-left: 20px;
+}
+#error9 h3{
+color: rgb(0, 198, 140);
+font-family: Montserrat;
+padding-left: 20px;
+/* color: #a29d9d; */
+}
+#last{
+background-color: red;
+font-weight: bolder;
+color: white;
+}
+#seclast{
+background-color: grey;
+font-weight: bolder;
+color: white;
+}
+#error6{
+width: 20px;
+height: 20px;
+position: absolute;
+margin-top: -40px;
+margin-left: 150px;
+}
+
+#error2 img:hover{
+border: 2px solid black;
+border-radius: 10px;
+cursor: pointer;
+}
+#error9 :hover{
+border: 2px solid black;
+border-radius: 10px;
+cursor: pointer;
+}
+#seclast:hover{
+border: 2px solid black;
+border-radius: 10px;
+cursor: pointer;
+}
+#last:hover{
+border: 2px solid black;
+border-radius: 10px;
+cursor: pointer;
+}
+#error10{
+display: flex;
+height: 100px;
+width: 100%;
+/* border: 2px solid black; */
+background-color: white;
+gap: 70px;
+}
+#error10 h3{
+color: black;
+}
+#error10 h3:hover{
+text-decoration: underline;
+cursor: pointer;
+}

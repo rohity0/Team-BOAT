@@ -116,8 +116,8 @@ function navbar1() {
                   <i class='fa fa-angle-down' style='color: white'></i></a>
             <div id="shop_products"  style="text-align:left ;">
                 <ul style="display:grid; gap: 1px; margin-top: 5px;">
-                    <li><a href="daily.html">Daily Deals</a></li>
-                    <li><a href="">Gifting</a></li>
+                    <li><a href="./daily.html">Daily Deals</a></li>
+                    <li><a href="./gifting.html">Gifting</a></li>
                     <li><a href="">Do What Floats Your boAt</a></li>
                     <li><a href="./boathead.html">Meet the booAtheads</a></li>
                     <li><a href="./corporate.html">Corporate Orders</a></li>
@@ -146,13 +146,13 @@ function navbar1() {
 
 
         <div id="icon2">
-            <a href="" id="usertag2">
+            <a href="./register.html" id="usertag2">
               <i id="usericon" class="fa fa-user" aria-hidden="true" style="color: rgb(255, 255, 255)"></i>
             </a>
           </div>
 
           <div id='icon3'>
-            <a href=" " id="usertag3">
+            <a href="./gift.html" id="usertag3">
                 <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/gift.png?v=1606314809" alt="gift card" style="max-width:30px;">
              </a>
                
