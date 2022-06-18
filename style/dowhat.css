@@ -1,0 +1,126 @@
+
+ * {
+    margin: 0px;
+    padding: 0px;
+ 
+ }
+
+
+#cont1 img{
+    width: 100%;
+    background-color: #000000;
+  
+}
+#video{
+    background-color: #000000;
+}
+.myVideo {
+    display: block;
+    margin: auto;
+}
+.only-text {
+    font-size: 30px;
+    line-height: normal;
+  margin-top: 50px;
+}
+
+/* #section {
+  
+    height: 400px;
+
+    background-image: url(https://cdn.shopify.com/s/files/1/0057/8938/4802/files/E-mailer-2000x1000-002.jpg?v=1633070181);
+   border: 1px solid  blue;
+} */
+#section {
+    background-image: url(https://cdn.shopify.com/s/files/1/0057/8938/4802/files/E-mailer-2000x1000-002.jpg?v=1633070181);
+}
+   #section {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 15px 60px;
+    margin-bottom: 0;
+}
+
+.text-white {
+    color: #fff!important;
+}
+.text-red {
+    color: #ff0000;
+}
+
+.section--3 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0057/8938/4802/files/E-mailer-2000x1000-03.jpg?v=1633070658);
+}
+
+.section {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 15px 60px;
+    margin-bottom: 0;
+}
+.section {
+    display: block;
+    margin: var(--vertical-breather) 0;
+}
+
+.section--4 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0057/8938/4802/files/E-mailer-2000x1000-15.jpg?v=1633077618);
+   
+}
+.only-img img{
+    width: 100%;
+}
+
+.section--5 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0057/8938/4802/files/E-mailer-2000x1000-10.jpg?v=1633073289);
+    border-bottom: 20px solid #ff0000;
+ 
+}
+
+.section--5 h2 {
+    font-size: 50px;
+    font-weight: 900;
+    transform: skewY(354deg);
+    margin-bottom: 3rem;
+}
+
+section--text p {
+    font-size: 30px;
+}
+
+.section--5 p {
+    font-size: 30px;
+    font-weight: bold;
+}
+.text-white {
+    color: #fff!important;
+}
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+.text-center {
+    text-align: center!important;
+}
+
+a.shop-now.text-uppercase.text-white.bold {
+    display: block;
+    margin: 3rem auto;
+    max-width: 300px;
+    background: #ff0000;
+    padding: 10px !important;
+    border-radius: 2em;
+    font-size: 20px;
+}
+.style {
+    background: #2c2c2c;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+    text-decoration: none;
+}

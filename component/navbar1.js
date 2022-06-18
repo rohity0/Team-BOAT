@@ -104,7 +104,7 @@ function navbar1() {
              <!-- second list -->
 
             <li> 
-                <a href="" >Offer Zone</a>
+                <a href="./offer.html" >Offer Zone</a>
              </li>
 
 
@@ -119,7 +119,7 @@ function navbar1() {
                     <li><a href="daily.html">Daily Deals</a></li>
                     <li><a href="">Gifting</a></li>
                     <li><a href="">Do What Floats Your boAt</a></li>
-                    <li><a href="">Meet the booAtheads</a></li>
+                    <li><a href="./boathead.html">Meet the booAtheads</a></li>
                     <li><a href="./corporate.html">Corporate Orders</a></li>
                     <li><a href="">Earn Rs. 100</a></li>
                     <li><a href="">Careers</a></li>
