@@ -156,3 +156,6 @@ input {
 .card {
   padding: 20px 90px;
 }
+a {
+  text-decoration: none;
+}

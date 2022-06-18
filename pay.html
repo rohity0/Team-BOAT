@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/pay.css" />
+  </head>
+  <body>
+    <div id="main-flex-container">
+      <div>
+        <div id="sign-in-div"></div>
+        <div id="name-details"></div>
+      </div>
+      <div id="protect-hotel"></div>
+      <!-- 
+
+           -->
+      <div id="card-details">
+        <div>
+          <i class="fa-solid fa-credit-card"></i>
+        </div>
+
+        <div>
+          <div>
+            <p><i class="fa-solid fa-check"></i>We use secure transmission</p>
+            <p>
+              <i class="fa-solid fa-check"></i>We protect your personal
+              information
+            </p>
+          </div>
+
+          <div>
+            <div class="card-imgs">
+              <img
+                src="https://a.travel-assets.com/dms-svg/payments/cards-cc_master_card.svg"
+                alt=""
+              />
+              <img
+                src="https://a.travel-assets.com/dms-svg/payments/cards-cc_american_express.svg"
+                alt=""
+              />
+              <img
+                src="https://a.travel-assets.com/dms-svg/payments/cards-cc_china_union_pay.svg"
+                alt=""
+              />
+              <img
+                src="https://a.travel-assets.com/dms-svg/payments/cards-cc_diners_club.svg"
+                alt=""
+              />
+              <img
+                src="https://a.travel-assets.com/dms-svg/payments/cards-cc_discover.svg"
+                alt=""
+              />
+              <img
+                src="https://a.travel-assets.com/dms-svg/payments/cards-cc_jcb.svg"
+                alt=""
+              />
+              <img
+                src="https://a.travel-assets.com/dms-svg/payments/cards-cc_visa.svg"
+                alt=""
+              />
+            </div>
+
+            <form id="card-form">
+              <p>Name on Card<span class="color-red">*</span></p>
+              <input type="text" id="name" />
+              <p>Debit/Credit card number<span class="color-red">*</span></p>
+              <input type="number" id="card-number" />
+              <p>Expiration date<span class="color-red">*</span></p>
+              <div>
+                <select id="expiry_month">
+                  <option value="null">Month</option>
+                  <option value="1">Jan</option>
+                  <option value="2">Feb</option>
+                  <option value="3">Mar</option>
+                  <option value="4">Apr</option>
+                  <option value="5">May</option>
+                  <option value="7">Jul</option>
+                  <option value="8">Aug</option>
+                  <option value="9">Sep</option>
+                  <option value="10">Oct</option>
+                  <option value="11">Nov</option>
+                  <option value="12">Dec</option>
+                </select>
+                <select id="expiry_year">
+                  <option value="null">Year</option>
+                  <option value="2022">2022</option>
+                  <option value="2023">2023</option>
+                  <option value="2024">2024</option>
+                  <option value="2025">2025</option>
+                  <option value="2026">2026</option>
+                  <option value="2027">2027</option>
+                  <option value="2028">2028</option>
+                  <option value="2029">2029</option>
+                  <option value="2030">2030</option>
+                  <option value="2031">2031</option>
+                  <option value="2032">2032</option>
+                </select>
+              </div>
+              <div>
+                <div>
+                  <p>security code <span class="color-red">*</span></p>
+                  <input type="number" id="security-code" />
+                </div>
+                <div>
+                  <p>Billing ZIP code <span class="color-red">*</span></p>
+                  <input type="number" id="zip-code" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div id="manage-bookings">
+        <div>
+          <h2>Confirm Your Order</h2>
+        </div>
+        <div>
+          <h3>Confirmation email</h3>
+          <p>
+            Please enter the email address where you would like to receive your
+            confirmation.
+          </p>
+          <div>
+            <p>Email address<span class="color-red">*</span></p>
+            <input type="email" />
+          </div>
+
+          <hr />
+
+          <h3>Create an account</h3>
+          <p>
+            Easily access your itinerary when you create an account using the
+            email address above.
+          </p>
+          <div>
+            <h4>Create password</h4>
+            <input type="text" placeholder="6 - 30 characters, no spaces" />
+            <h4>Confirm password</h4>
+            <input type="text" />
+          </div>
+          <p>
+            By creating an account, I agree to the
+            <a href="#">BOAT Rewards Terms and Conditions.</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
