@@ -1,0 +1,36 @@
+#bg{
+    background-color: black;
+}
+#kartik>img{
+width:100%;
+height:1650px;
+}
+#daljeet>img{
+width:100%;
+height:1250px;
+}
+#hardik>img{
+width:80%;
+height:1550px;
+margin-left: 200px;
+}
+#rahul>img{
+width:100%;
+height:1250px;
+}
+#shreyas>img{
+width:100%;
+height:1250px;
+}
+#glamour{
+    background-color: aliceblue;
+    text-shadow: 0in;
+}
+
+#kiara>iframe{
+    margin-left:180px;
+    margin-top: 20px;
+}
+#rahul>iframe{
+    margin-left:180px;
+} 

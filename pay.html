@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/pay.css" />
+    <!--  -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--  -->
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <div id="main-flex-container">
+      <div>
+        <div id="sign-in-div"></div>
+        <div id="name-details"></div>
+      </div>
+      <div id="protect-hotel"></div>
+      <!-- 
+
+           -->
+      <div id="card-details">
+        <div>
+          <i class="fa-solid fa-credit-card"></i>
+        </div>
+
+        <div>
+          <div>
+            <p><i class="fa-solid fa-check"></i>We use secure transmission</p>
+            <p>
+              <i class="fa-solid fa-check"></i>We protect your personal
+              information
+            </p>
+          </div>
+
+          <div>
+            <div class="card-imgs">
+              <img
+                src="https://a.travel-assets.com/dms-svg/payments/cards-cc_master_card.svg"
+                alt=""
+              />
+              <img
+                src="https://a.travel-assets.com/dms-svg/payments/cards-cc_american_express.svg"
+                alt=""
+              />
+              <img
+                src="https://a.travel-assets.com/dms-svg/payments/cards-cc_china_union_pay.svg"
+                alt=""
+              />
+              <img
+                src="https://a.travel-assets.com/dms-svg/payments/cards-cc_diners_club.svg"
+                alt=""
+              />
+              <img
+                src="https://a.travel-assets.com/dms-svg/payments/cards-cc_discover.svg"
+                alt=""
+              />
+              <img
+                src="https://a.travel-assets.com/dms-svg/payments/cards-cc_jcb.svg"
+                alt=""
+              />
+              <img
+                src="https://a.travel-assets.com/dms-svg/payments/cards-cc_visa.svg"
+                alt=""
+              />
+            </div>
+
+            <form id="card-form">
+              <p>Name on Card<span class="color-red">*</span></p>
+              <input type="text" id="name" required />
+              <p>Debit/Credit card number<span class="color-red">*</span></p>
+              <input type="number" id="card-number" required />
+              <p>Expiration date<span class="color-red">*</span></p>
+              <div>
+                <select id="expiry_month" required>
+                  <option value="null">Month</option>
+                  <option value="1">Jan</option>
+                  <option value="2">Feb</option>
+                  <option value="3">Mar</option>
+                  <option value="4">Apr</option>
+                  <option value="5">May</option>
+                  <option value="7">Jul</option>
+                  <option value="8">Aug</option>
+                  <option value="9">Sep</option>
+                  <option value="10">Oct</option>
+                  <option value="11">Nov</option>
+                  <option value="12">Dec</option>
+                </select>
+                <select id="expiry_year" required>
+                  <option value="null">Year</option>
+                  <option value="2022">2022</option>
+                  <option value="2023">2023</option>
+                  <option value="2024">2024</option>
+                  <option value="2025">2025</option>
+                  <option value="2026">2026</option>
+                  <option value="2027">2027</option>
+                  <option value="2028">2028</option>
+                  <option value="2029">2029</option>
+                  <option value="2030">2030</option>
+                  <option value="2031">2031</option>
+                  <option value="2032">2032</option>
+                </select>
+              </div>
+              <div>
+                <div>
+                  <p>security code <span class="color-red">*</span></p>
+                  <input type="number" id="security-code" required />
+                </div>
+                <div>
+                  <p>Billing ZIP code <span class="color-red">*</span></p>
+                  <input type="number" id="zip-code" required />
+                </div>
+              </div>
+              <input type="submit" value="PAY NOW" />
+            </form>
+          </div>
+          <hr />
+          <p>FOR CASH ON DELIVERY</p>
+          <button id="cod">CASH ON DELIVERY</button>
+        </div>
+      </div>
+
+      <div id="manage-bookings">
+        <div>
+          <h2>Confirm Your Order</h2>
+        </div>
+        <div>
+          <h3>Confirmation email</h3>
+          <p>
+            Please enter the email address where you would like to receive your
+            confirmation.
+          </p>
+          <div>
+            <p>Email address<span class="color-red">*</span></p>
+            <input type="email" />
+          </div>
+
+          <hr />
+
+          <h3>Delivery Address</h3>
+          <form action="" id="adress"> 
+          <div>
+            <p>Personal Details</p>
+            <input type="text" placeholder="Name" required />
+            <input type="text" placeholder="Last Name" required />
+          </div>
+
+          <div>
+            <input type="text" placeholder="Mobile" required required />
+          </div>
+          <hr />
+          <div>
+            <h4>Address</h4>
+
+            <div>
+             <input type="text" placeholder="Address 1" required />
+              <input type="text" placeholder="Address 2" required/>
+            </div>
+            <div>
+              <input type="text" placeholder="City" required/>
+              <input type="text" placeholder="State" required/>
+            </div>
+            <input type="text" placeholder="Pin Code" required/>
+            <div> <input type="submit" value="Confirm Address" id="address"></div>
+          </form>
+           
+          </div>
+          <p>
+            I agree to the
+            <a href="#">BOAT Rewards Terms and Conditions.</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer id="footer"></footer>
+  </body>
+</html>
+
+<script type="module">
+  import { navbar1 } from "../component/navbar1.js";
+  let nav = navbar1();
+  // console.log(nav)
+  document.getElementById("navbar").innerHTML = nav;
+
+  //
+  import { footer } from "../component/footer1.js";
+  let foot = document.getElementById("footer");
+  foot.innerHTML = footer();
+
+  let pay = document.querySelector("#card-form");
+  pay.addEventListener("submit", paynow);
+  function paynow(event) {
+    event.preventDefault();
+    window.location.assign("./otp.html");
+  }
+
+  let cash = document.querySelector("#cod").addEventListener("click", cashD);
+  function cashD() {
+    alert("Order Successfully PLaced");
+    window.location.assign("./index.html");
+  }
+
+
+  let address = document.querySelector("#adress").addEventListener("submit", adress)
+  function adress(){
+    event.preventDefault()
+    alert("Kindly PAY")
+  }
+</script>

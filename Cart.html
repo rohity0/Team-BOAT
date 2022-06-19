@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!--  -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--  -->
+    <link rel="stylesheet" href="./style/cart.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@300&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <div id="cartTag"><h1>Cart</h1></div>
+    <div id="cartItems">
+      <div class="products">
+        <hr />
+        <div id="pnav">
+          <p>Product</p>
+          <div>
+            <p>Qunatity</p>
+            <p>TOTAL</p>
+          </div>
+        </div>
+        <hr />
+        <div id="items">
+          <!-- <input type="number" min="1" max="5" /> -->
+        </div>
+      </div>
+      <!-- payment -->
+      <div id="payment">
+        <div>
+          <h3>TOTAL</h3>
+          <h3 id="gtotal"></h3>
+        </div>
+        <p>Shipping & taxes calculated at Checkout</p>
+        <button class="cash"><a href="pay.html">CASH ON DELIVERY</a></button>
+        <button class="card"><a href="pay.html">PAY VIA CARD</a></button>
+      </div>
+    </div>
+
+    <footer id="footer"></footer>
+  </body>
+</html>
+<script src="./script/cart.js" type="module"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>

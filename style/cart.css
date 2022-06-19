@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  border-color: grey;
+  color: white;
+}
+hr {
+  size: 1.5px;
+}
+body {
+  background: #252525;
+}
+#cartTag {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  line-height: 1.5;
+  padding: 5px;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+
+#cartItems {
+  display: flex;
+  justify-content: space-evenly;
+}
+.products {
+  width: 60%;
+  /* border: 1px solid; */
+  height: 700px;
+}
+
+#pnav {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+}
+#pnav > div {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 150px;
+}
+
+.box {
+  display: flex;
+  /* border: 1px solid red; */
+  padding: 5px;
+  gap: 20px;
+}
+/* remove */
+/* .box div {
+  border: 1px solid green;
+} */
+.box > .img {
+  display: flex;
+  width: 60%;
+  align-items: center;
+}
+
+.img > img {
+  width: 100px;
+  height: 100px;
+  background-color: #e1e1e1;
+}
+
+.img > div {
+  text-overflow: ellipsis;
+  width: 100%;
+  padding: 20px;
+  /* height: 100%; */
+  /* align-items: center; */
+}
+.img > div > h4 {
+  margin-bottom: 20px;
+}
+.img > div > p {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.quant {
+  padding: 20px 0;
+  width: 20%;
+}
+.quant > h4 {
+  text-align: start;
+  margin-top: 40px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.quant > h4:hover {
+  text-decoration: none;
+  font-size: 20px;
+}
+input {
+  position: relative;
+  color: black;
+}
+.decrease {
+  margin-right: -1px;
+  /* position:/ absolute; */
+  z-index: 3;
+  /* border: 0; */
+  background-color: #252525;
+}
+
+.increase {
+  margin-left: -25px;
+  position: absolute;
+  z-index: 2;
+  background-color: #252525;
+}
+
+.total {
+  display: flex;
+  width: 15%;
+  align-items: center;
+  justify-content: center;
+}
+/* payment */
+#payment {
+  /* border: 1px solid; */
+  width: 27%;
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: black;
+}
+#payment > div {
+  display: flex;
+  /* border: 1px solid; */
+  padding: 20px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+#payment > div + p {
+  /* font-weight: bold; */
+  margin-bottom: 15px;
+  color: grey;
+}
+
+.cash,
+.card {
+  display: block;
+  margin: auto;
+  padding: 20px 70px;
+  margin-bottom: 10px;
+  background-color: red;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card {
+  padding: 20px 90px;
+}
+a {
+  text-decoration: none;
+}
