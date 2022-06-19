@@ -181,3 +181,16 @@ select {
 #hotel-details > div:nth-child(2) > p:nth-child(5) {
   margin: 5px 0;
 }
+
+hr {
+  margin-bottom: 15px;
+}
+#cod {
+  margin-top: 10px;
+  padding: 20px 30px;
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+}

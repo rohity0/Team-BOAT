@@ -17,7 +17,6 @@ document.querySelector("#kis4").addEventListener("submit", function () {
     password: kis4.password.value,
   };
   console.log(data);
-
   localStorage.setItem("userDatas", JSON.stringify(data));
   window.location.href = "login.html";
 });

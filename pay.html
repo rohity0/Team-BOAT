@@ -78,12 +78,12 @@
 
             <form id="card-form">
               <p>Name on Card<span class="color-red">*</span></p>
-              <input type="text" id="name" />
+              <input type="text" id="name" required />
               <p>Debit/Credit card number<span class="color-red">*</span></p>
-              <input type="number" id="card-number" />
+              <input type="number" id="card-number" required />
               <p>Expiration date<span class="color-red">*</span></p>
               <div>
-                <select id="expiry_month">
+                <select id="expiry_month" required>
                   <option value="null">Month</option>
                   <option value="1">Jan</option>
                   <option value="2">Feb</option>
@@ -97,7 +97,7 @@
                   <option value="11">Nov</option>
                   <option value="12">Dec</option>
                 </select>
-                <select id="expiry_year">
+                <select id="expiry_year" required>
                   <option value="null">Year</option>
                   <option value="2022">2022</option>
                   <option value="2023">2023</option>
@@ -115,15 +115,19 @@
               <div>
                 <div>
                   <p>security code <span class="color-red">*</span></p>
-                  <input type="number" id="security-code" />
+                  <input type="number" id="security-code" required />
                 </div>
                 <div>
                   <p>Billing ZIP code <span class="color-red">*</span></p>
-                  <input type="number" id="zip-code" />
+                  <input type="number" id="zip-code" required />
                 </div>
               </div>
+              <input type="submit" value="PAY NOW" />
             </form>
           </div>
+          <hr />
+          <p>FOR CASH ON DELIVERY</p>
+          <button id="cod">CASH ON DELIVERY</button>
         </div>
       </div>
 
@@ -144,19 +148,36 @@
 
           <hr />
 
-          <h3>Create an account</h3>
-          <p>
-            Easily access your itinerary when you create an account using the
-            email address above.
-          </p>
+          <h3>Delivery Address</h3>
+          <form action="" id="adress"> 
           <div>
-            <h4>Create password</h4>
-            <input type="text" placeholder="6 - 30 characters, no spaces" />
-            <h4>Confirm password</h4>
-            <input type="text" />
+            <p>Personal Details</p>
+            <input type="text" placeholder="Name" required />
+            <input type="text" placeholder="Last Name" required />
+          </div>
+
+          <div>
+            <input type="text" placeholder="Mobile" required required />
+          </div>
+          <hr />
+          <div>
+            <h4>Address</h4>
+
+            <div>
+             <input type="text" placeholder="Address 1" required />
+              <input type="text" placeholder="Address 2" required/>
+            </div>
+            <div>
+              <input type="text" placeholder="City" required/>
+              <input type="text" placeholder="State" required/>
+            </div>
+            <input type="text" placeholder="Pin Code" required/>
+            <div> <input type="submit" value="Confirm Address" id="address"></div>
+          </form>
+           
           </div>
           <p>
-            By creating an account, I agree to the
+            I agree to the
             <a href="#">BOAT Rewards Terms and Conditions.</a>
           </p>
         </div>
@@ -176,4 +197,24 @@
   import { footer } from "../component/footer1.js";
   let foot = document.getElementById("footer");
   foot.innerHTML = footer();
+
+  let pay = document.querySelector("#card-form");
+  pay.addEventListener("submit", paynow);
+  function paynow(event) {
+    event.preventDefault();
+    window.location.assign("./otp.html");
+  }
+
+  let cash = document.querySelector("#cod").addEventListener("click", cashD);
+  function cashD() {
+    alert("Order Successfully PLaced");
+    window.location.assign("./index.html");
+  }
+
+
+  let address = document.querySelector("#adress").addEventListener("submit", adress)
+  function adress(){
+    event.preventDefault()
+    alert("Kindly PAY")
+  }
 </script>
