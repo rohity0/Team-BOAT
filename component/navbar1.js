@@ -118,7 +118,7 @@ function navbar1() {
                 <ul style="display:grid; gap: 1px; margin-top: 5px;">
                     <li><a href="./daily.html">Daily Deals</a></li>
                     <li><a href="./gifting.html">Gifting</a></li>
-                    <li><a href="">Do What Floats Your boAt</a></li>
+                    <li><a href="./dowhat.html">Do What Floats Your boAt</a></li>
                     <li><a href="./boathead.html">Meet the booAtheads</a></li>
                     <li><a href="./corporate.html">Corporate Orders</a></li>
                     <li><a href="">Earn Rs. 100</a></li>

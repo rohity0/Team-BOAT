@@ -11,8 +11,8 @@ document.querySelector("#kis4").addEventListener("submit", function () {
   console.log(email);
 
   var data = {
-    userfname: fname,
-    userlname: lname,
+    // userfname: fname,
+    // userlname: lname,
     email: kis4.email.value,
     password: kis4.password.value,
   };

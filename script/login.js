@@ -8,9 +8,9 @@ var userDatas = JSON.parse(localStorage.getItem("userDatas"));
 
 console.log(userDatas);
 
-// let remail = userDatas.email;
-// let rpassword = userDatas.password;
-// console.log(remail, rpassword);
+let remail = userDatas.email;
+let rpassword = userDatas.password;
+console.log(remail, rpassword);
 
 let log = document.getElementById("submit");
 log.addEventListener("click", login);
