@@ -4,7 +4,7 @@
  ReactJs,  HTML, CSS, JavaScript,  ChakaraUi 
 
 ## Link
-https://myapp-yadavry09-gmailcom.vercel.app/
+https://famous-nougat-33aef3.netlify.app/
 
  ## Preview
   * Landing page
